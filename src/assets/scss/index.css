@@ -1,0 +1,139 @@
+* {
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body#login {
+  background-image: url("../images/backgroundImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body#home {
+  background-color: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.35em;
+}
+
+p {
+  font-size: 16px;
+}
+
+i {
+  color: #000000;
+}
+
+a {
+  color: #29C5F4;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  background-color: #29C5F4;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  font-size: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.centerH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconSuccess {
+  font-size: 38px;
+  color: #26A44C;
+}
+
+.iconError {
+  font-size: 38px;
+  color: #E81123;
+}
+
+p.success {
+  color: #26A44C;
+  font-size: 16px;
+}
+
+p.error {
+  color: #E81123;
+  font-size: 16px;
+}
+
+.card {
+  max-width: 500px !important;
+  width: 500px;
+  padding: 40px 50px;
+  background-color: #FFFFFF;
+}
+
+.linkText {
+  font-size: 14px;
+}
+
+.invertedButtonPrimary {
+  background-color: #FFFFFF;
+  color: #0078D4;
+  margin: 0 5px;
+}
+
+.invertedButtonPrimary:hover {
+  background-color: #fafafa;
+  color: #0078D4;
+}
+
+.ms-TextField-wrapper {
+  margin-top: 20px;
+}
+
+/* -------------------------------------  Classes Office-UI------------------------------------------------ */
+input[class*="field"] {
+  padding-left: 0px !important;
+}
+/*# sourceMappingURL=index.css.map */
